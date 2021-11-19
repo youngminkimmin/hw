@@ -1,1 +1,19 @@
-/* No CSS */
+html { font-size: 10px; }
+
+body { font-size: 1.6rem; font-family: "Poppins", "Noto Sans KR", sans-serif; color: #fff; }
+
+a { color: inherit; text-decoration: none; }
+
+button { background: none; border: none; outline: none; }
+
+img { vertical-align: top; }
+
+.hidden { display: none; }
+
+#header { width: 100%; position: fixed; z-index: 2; display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+#header .gnb .list { width: 1120px; height: 100px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+#header .gnb .list .de1 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+#header .gnb .list .de1 a { width: 0; }

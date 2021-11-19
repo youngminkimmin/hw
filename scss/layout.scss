@@ -1,2 +1,51 @@
 @import "vars";
 @import "mixins";
+
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", "Noto Sans KR", sans-serif;
+  color: #fff;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+img {
+  vertical-align: top;
+}
+.hidden {
+  display: none;
+}
+
+#header {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  .logo {
+  }
+  .gnb {
+    .list {
+      width: 1120px;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+
+      .de1 {
+        display: flex;
+        justify-content: center;
+        a {
+          width: 0;
+        }
+      }
+    }
+  }
+}
